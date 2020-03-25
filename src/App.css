@@ -13,3 +13,8 @@ body{
 header{
   background-color: #033649;
 }
+
+#body{
+  position: relative;
+  width:50%;
+}

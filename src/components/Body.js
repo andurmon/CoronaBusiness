@@ -7,15 +7,13 @@ import QuienesSomos from './content/QuienesSomos'
 
 function Body(){
   return(
-    <div>
-      <BrowserRouter>
+    <div id="body">
         <Switch>
-          <Route path='/#inicio' exact component = {Inicio}/>
-          <Route path="/#tyc" exact component = {TyC}/>
+          <Route path='/inicio' exact component = {Inicio}/>
+          <Route path="/tyc" exact component = {TyC}/>
           <Route path="/wpbusiness" exact component = {WpBusiness}/>
           <Route path ="/quienessomos"exact component = {QuienesSomos}/>
         </Switch>
-      </BrowserRouter>
     </div>
   )
 }

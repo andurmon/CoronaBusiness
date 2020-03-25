@@ -1,6 +1,5 @@
-import React, {useState} from 'react'
-import {Nav, NavDropdown, Navbar, Form, FormControl,Button, Tabs, Tab, ToggleButtonGroup, ToggleButton} from 'react-bootstrap'
-import {Link, BrowserRouter} from 'react-router-dom'
+import React from 'react'
+import {Nav,Navbar} from 'react-bootstrap'
 import { useHistory } from "react-router-dom";
 function Header(){
   
@@ -13,22 +12,18 @@ function Header(){
   
   return(
     <header>
-      <BrowserRouter>
         <Navbar variant="dark" expand="lg">
-          <Navbar.Brand href="/inicio">CoronaBusiness</Navbar.Brand>
+          <Navbar.Brand href="/inicio">CompraLocal</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
-
             <Nav variant="dark" defaultActiveKey="/inicio" onSelect={(eventKey)=>handleLink(eventKey)}>
               <Nav.Link eventKey="/inicio">Inicio</Nav.Link>
               <Nav.Link eventKey="/tyc">Terminos y Condiciones</Nav.Link>
               <Nav.Link eventKey="/wpbusiness">Whastapp Business</Nav.Link>
               <Nav.Link eventKey="/quienessomos">Quienes Somos</Nav.Link>
             </Nav>
-          
           </Navbar.Collapse>
         </Navbar>
-      </BrowserRouter>
     </header>
   )
 }

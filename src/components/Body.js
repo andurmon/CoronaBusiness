@@ -10,8 +10,8 @@ function Body(){
     <div>
       <BrowserRouter>
         <Switch>
-          <Route path='/inicio' exact component = {Inicio}/>
-          <Route path="/tyc" exact component = {TyC}/>
+          <Route path='/#inicio' exact component = {Inicio}/>
+          <Route path="/#tyc" exact component = {TyC}/>
           <Route path="/wpbusiness" exact component = {WpBusiness}/>
           <Route path ="/quienessomos"exact component = {QuienesSomos}/>
         </Switch>

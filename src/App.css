@@ -7,14 +7,45 @@ article, aside, header, footer, main, nav, section {
     padding: 0px;
     margin: 0px;
 }
-body{
-  background-color:#E8DDCB;
-}
+
 header{
   background-color: #024321;
 }
 
+body{
+  background-color:#E8DDCB;
+  position: relative;
+  min-height: 100vh;
+}
+
+footer{
+  background-color: #024321;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 4rem;
+}
+footer>div{
+  color:#E8DDCB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #body{
   position: relative;
-  width:50%;
+  width:80%;
+  padding-bottom: 6rem;
+}
+
+#tyc{
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  left:10%;
+  right:10%;
 }

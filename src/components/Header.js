@@ -15,7 +15,7 @@ function Header(){
     <header>
         <Navbar variant="dark" expand="lg">
           <Navbar.Brand href="/inicio">
-            <img alt="" width="50" height="49.7"src={logo_g} width="30" height="30" className="d-inline-block align-top"/>{' '}
+            <img alt="" width="100" height="99.5"src={logo_g} width="30" height="30" className="d-inline-block align-top"/>{' '}
             CompraLocal
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>

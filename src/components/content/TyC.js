@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 export default function TyC(){
   return(
-    <div >
+    <div id="tyc">
       <h1>Términos y Condiciones de Uso de servicio COMPRA LOCAL.</h1>
       <h2>ASPECTOS GENERALES.</h2>
       <p>COMPRA LOCAL es una iniciativa propuesta por estudiantes de la escuela de Ingeniería de la Universidad Pontificia Bolivariana, 

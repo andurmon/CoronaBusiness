@@ -1,5 +1,6 @@
 import React from 'react'
 import {Nav,Navbar} from 'react-bootstrap'
+import logo_g from '../logo_g.png'
 import { useHistory } from "react-router-dom";
 function Header(){
   
@@ -13,7 +14,10 @@ function Header(){
   return(
     <header>
         <Navbar variant="dark" expand="lg">
-          <Navbar.Brand href="/inicio">CompraLocal</Navbar.Brand>
+          <Navbar.Brand href="/inicio">
+            <img alt="" width="50" height="49.7"src={logo_g} width="30" height="30" className="d-inline-block align-top"/>{' '}
+            CompraLocal
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav variant="dark" defaultActiveKey="/inicio" onSelect={(eventKey)=>handleLink(eventKey)}>

@@ -1,5 +1,5 @@
-import React, {userState} from 'react'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import React from 'react'
+import { Route, Switch} from 'react-router-dom'
 import Inicio from './content/Inicio'
 import TyC from './content/TyC'
 import WpBusiness from './content/WpBusiness'

@@ -1,10 +1,11 @@
 import React, {useState} from 'react'
 import logo from '../../images/logo_g.png'
+import '../../styles/tyc.css'
 
 export default function TyC(){
   return(
     <div id="tyc">
-      <h1>Términos y Condiciones de Uso de servicio COMPRA LOCAL</h1>
+      <h1>Términos y Condiciones de Uso de servicio</h1><h1>COMPRA LOCAL</h1>
       <img id="logo" alt="" src={logo} width="82" height="82" className="d-inline-block align-top"/>
       <br/>
       <h2>ASPECTOS GENERALES</h2>
@@ -48,6 +49,7 @@ export default function TyC(){
         <h3>Comprador</h3>
         <p>Persona natural que, mediante el servicio, busque informarse de los comercios cercanos para luego obtener un producto remunerado mediante 
           un contrato de compraventa o cualquier otro tipo de contrato lícito, con el fin de adquirir un bien.</p>
+          <br/>
         <h3>Vendedor.</h3>
         <p>Persona natural o jurídica que busca ser conocido por los compradores para posteriormente suministrar un bien de manera directa con el 
           comprador el cual será remunerado.</p>

@@ -1,0 +1,72 @@
+@media (min-width:811px){
+  #inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    width:80%;
+    left:8%;
+    right:8%;
+  }
+
+  #inicio>section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+  }
+  
+  #inicioContent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+  }
+
+  #wp_chat{
+    flex-shrink: 0;
+    margin-right: 15px;
+    width: 217px;
+    height: 400px;
+  }
+}
+
+@media(max-width: 810px){
+  #inicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    widows: 90%;
+    left:5%;
+    right:5%;
+  }
+  #inicio>h1{
+    text-align: center;
+  }
+
+  #inicio>section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: justify;
+    flex-direction: column;
+  }
+
+  #inicioContent{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+  }
+  #wp_chat{
+    flex-shrink: 1;
+    margin-right: 15px;
+    width: 80%;
+  }
+}
+

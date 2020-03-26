@@ -10,7 +10,7 @@ function Header(){
     console.log(eventKey)
     history.push(eventKey)
   }
-  
+  /////// <Nav.Link eventKey="/wpbusiness">Whastapp Business</Nav.Link>
   return(
     <header>
         <Navbar variant="dark" expand="lg">
@@ -22,7 +22,7 @@ function Header(){
             <Nav variant="dark" defaultActiveKey="/inicio" onSelect={(eventKey)=>handleLink(eventKey)}>
               <Nav.Link eventKey="/inicio">Inicio</Nav.Link>
               <Nav.Link eventKey="/tyc">Terminos y Condiciones</Nav.Link>
-              <Nav.Link eventKey="/wpbusiness">Whastapp Business</Nav.Link>
+             
               <Nav.Link eventKey="/quienessomos">Quienes Somos</Nav.Link>
             </Nav>
           </Navbar.Collapse>

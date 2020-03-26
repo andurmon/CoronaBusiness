@@ -1,0 +1,28 @@
+@media (min-width:661px){ 
+  #tyc{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    width:80%;
+    left:10%;
+    right:10%;
+  }
+}
+
+@media (max-width:661px){ 
+  #tyc>h1{
+    text-align: center;
+  }
+  #tyc{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    width:80%;
+    left:10%;
+    right:10%;
+  }
+}

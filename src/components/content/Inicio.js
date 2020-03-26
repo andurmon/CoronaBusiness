@@ -1,7 +1,13 @@
 import React from 'react'
-import wpChat from '../../images/whatsapp_chat.png'
+import wpChat from '../../images/smartphone1.png'//whatsapp_chat.jpg
+import sphone1 from '../../images/smartphone1.png'
+import sphone2 from '../../images/smartphone2.png'
+import ubicacion1 from '../../images/ubicacion1.png'
+import ubicacion2 from '../../images/ubicacion2.png'
+import ubicacion3 from '../../images/ubicacion3.png'
 import '../../styles/inicio.css'
-import {Image} from 'react-bootstrap'
+import {Image, Carousel} from 'react-bootstrap'
+import CarouselCaption from 'react-bootstrap/CarouselCaption'
 
 export default function Inicio(){
   return(
@@ -25,9 +31,27 @@ export default function Inicio(){
               Con esta valiosa información podrás pedir domicilios y ayudar a la economia local durante esta crisis sanitaria.</li>
           </ol>
         </div>
-        <Image id="wp_chat" src={wpChat} rounded />
+        <Carousel>
+          <Carousel.Item> 
+            <img id="wp_chat" width=" 230px" height= "492px" src={wpChat}/>
+            <Carousel.Caption><h3>1.</h3></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item> 
+            <img width=" 230px" height= "492px"  src={ubicacion1} alt="First slide"/>
+            <Carousel.Caption><h3>2.</h3></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width=" 230px" height= "492px" src={ubicacion2} alt="Third slide"/>
+            <Carousel.Caption><h3>3.</h3></Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width=" 230px" height= "492px" src={ubicacion3} alt="Third slide"/>
+            <Carousel.Caption><h3>4.</h3></Carousel.Caption>
+           
+          </Carousel.Item>
+        </Carousel>
+        
       </section>
-   
     </div>
   )
 }

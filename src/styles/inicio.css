@@ -1,3 +1,13 @@
+.carousel{
+  width:  230px;
+}
+.carousel-indicators>li{
+  background-color: black;
+}
+.carousel-control-prev>span{
+  color: black;
+}
+
 @media (min-width:811px){
   #inicio{
     display: flex;
@@ -28,8 +38,8 @@
   #wp_chat{
     flex-shrink: 0;
     margin-right: 15px;
-    width: 217px;
-    height: 400px;
+    width: 230px;
+    height: 492px;
   }
 }
 

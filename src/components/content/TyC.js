@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import logo from '../../images/logo_g.png'
 import '../../styles/tyc.css'
 

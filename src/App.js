@@ -1,17 +1,16 @@
 import React from 'react';
-import './styles/compralocal.css';
-import Header from './components/Header'
-import Body from './components/Body';
-import Footer from './components/Footer'
-import {BrowserRouter} from 'react-router-dom'
+import Compralocal from './Compralocal'
+import Conectandote from './Conectandote'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 function App() {
 
   return (
     <div id="App">
       <BrowserRouter>
-        <Header/>
-        <Body/>
-        <Footer/>
+        <Switch>
+          <Route path="/" exact component={Conectandote}/>
+          <Route path="/compralocal" component={Compralocal}/>
+        </Switch>
       </BrowserRouter>
     </div>
   );

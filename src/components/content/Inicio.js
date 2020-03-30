@@ -3,7 +3,7 @@ import wpChat from '../../images/smartphone1.png'//whatsapp_chat.jpg
 import ubicacion1 from '../../images/ubicacion1.png'
 import ubicacion2 from '../../images/ubicacion2.png'
 import ubicacion3 from '../../images/ubicacion3.png'
-import '../../styles/inicio.css'
+import '../../styles/compralocal/inicio.css'
 import {Carousel} from 'react-bootstrap'
 
 

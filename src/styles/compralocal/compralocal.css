@@ -8,19 +8,19 @@ article, aside, header, footer, main, nav, section {
     margin: 0px;
 }
 
-header{
+#Compralocal>header{
   background-color: #024321;
   margin-bottom: 30px;
 }
 
-body{
+#Compralocal>body{
   background-color:#E8DDCB;
   position: relative;
   width: 100%;
   min-height: 100vh;
 }
 
-footer{
+#Compralocal>footer{
   background-color: #024321;
   display: flex;
   justify-content: center;
@@ -29,14 +29,14 @@ footer{
   width: 100%;
   height: 4rem;
 }
-footer>div{
+#Compralocal>footer>div{
   color:#E8DDCB;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#body{
+#Compralocal>#body{
   position: relative;
   padding-bottom: 6rem;
 }

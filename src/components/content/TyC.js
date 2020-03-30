@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../images/logo_g.png'
-import '../../styles/tyc.css'
+import '../../styles/compralocal/tyc.css'
 
 export default function TyC(){
   return(

@@ -10,13 +10,13 @@ function Body(){
   return(
     <div id="body">
         <Switch>
-          <Route exact path="/">
-            <Redirect to="/inicio"/>
+          <Route exact path="/compralocal">
+            <Redirect to="/compralocal/inicio"/>
           </Route>
-          <Route path='/inicio' exact component = {Inicio}/>
-          <Route path="/tyc" exact component = {TyC}/>
-          <Route path="/wpbusiness" exact component = {WpBusiness}/>
-          <Route path ="/quienessomos"exact component = {QuienesSomos}/>
+          <Route path='/compralocal/inicio' exact component = {Inicio}/>
+          <Route path="/compralocal/tyc" exact component = {TyC}/>
+          <Route path="/compralocal/wpbusiness" exact component = {WpBusiness}/>
+          <Route path ="/compralocal/quienessomos"exact component = {QuienesSomos}/>
           <Route path="/" component = {NoMatch}/>
         </Switch>
     </div>

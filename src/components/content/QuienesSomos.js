@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../styles/quienessomos.css'
+import '../../styles/compralocal/quienessomos.css'
 export default function QuienesSomos(){
   return(
     <div id="qs">

@@ -8,20 +8,20 @@ article, aside, header, footer, main, nav, section {
     margin: 0px;
 }
 
-#Compralocal>header{
-  background-color: #024321;
-  margin-bottom: 30px;
-}
-
-#Compralocal>body{
+body{
   background-color:#E8DDCB;
   position: relative;
   width: 100%;
   min-height: 100vh;
 }
 
-#Compralocal>footer{
-  background-color: #024321;
+#Compralocal header{
+  background-color: #E6B631;
+  margin-bottom: 30px;
+}
+
+#Compralocal footer{
+  background-color: #E6B631;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -29,14 +29,14 @@ article, aside, header, footer, main, nav, section {
   width: 100%;
   height: 4rem;
 }
-#Compralocal>footer>div{
-  color:#E8DDCB;
+#Compralocal footer>div{
+  color:#211915;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#Compralocal>#body{
+#body{
   position: relative;
   padding-bottom: 6rem;
 }

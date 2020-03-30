@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../../images/logo_g.png'
+import logo from '../../images/logo_dark.png'
 import '../../styles/compralocal/tyc.css'
 
 export default function TyC(){
   return(
     <div id="tyc">
-      <h1>Términos y Condiciones de Uso de servicio</h1><h1>COMPRA LOCAL</h1>
-      <img id="logo" alt="" src={logo} width="82" height="82" className="d-inline-block align-top"/>
+      <h1>Términos y Condiciones de Uso de servicio</h1>
+      <img id="logo" alt="" src={logo} height="100px" className="d-inline-block align-top"/>
       <br/>
       <h2>ASPECTOS GENERALES</h2>
       <p>COMPRA LOCAL es una iniciativa propuesta por estudiantes de la escuela de Ingeniería de la Universidad Pontificia Bolivariana, 

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer(){
   return(
-    <footer id="footer">
+    <footer >
       <div>
         <strong>Medellin 2020</strong>
         <strong>Realizado en Cuarentena</strong>

@@ -1,13 +1,13 @@
 import React from 'react'
 import {Nav,Navbar} from 'react-bootstrap'
 import logo from '../images/logo_g.png'
-import { useHistory } from "react-router-dom";
+import { useHistory, useRouteMatch } from "react-router-dom";
 function Header(){
   
   let history = useHistory();
-
+  let match = useRouteMatch("/:content");
+  console.log(match.url)
   function handleLink(eventKey){
-    console.log(eventKey)
     history.push(eventKey)
   }
   /////// <Nav.Link eventKey="/wpbusiness">Whastapp Business</Nav.Link>
@@ -19,7 +19,7 @@ function Header(){
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav variant="dark" defaultActiveKey="/inicio" onSelect={(eventKey)=>handleLink(eventKey)}>
+            <Nav variant="dark" defaultActiveKey={match.url}  onSelect={(eventKey)=>handleLink(eventKey)}>
               <Nav.Link eventKey="/inicio">Inicio</Nav.Link>
               <Nav.Link eventKey="/tyc">Terminos y Condiciones</Nav.Link>
              
